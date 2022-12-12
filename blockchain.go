@@ -102,7 +102,7 @@ func (blockchain Blockchain) printBlocks() {
 
 func main() {
 	// create a new blockchain instance with a mining difficulty of 2
-	blockchain := CreateBlockchain(6)
+	blockchain := CreateBlockchain(2)
 
 	// record transactions on the blockchain for Alice, Bob, and John
 	blockchain.addBlock("Alice", "Bob", 5)
